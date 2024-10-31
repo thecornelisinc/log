@@ -4,7 +4,7 @@ resource "aws_instance" "log" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "log"
+    Name = "log1"
     environment= "log"
   }
 }
