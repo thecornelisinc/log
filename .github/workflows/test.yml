@@ -12,7 +12,7 @@ jobs:
     name: Deploy to Development Environment
     uses: thecornelisinc/shared_repo/.github/workflows/plan.yml@main  
     with:
-      account: sec
+      account: log
       aws_region: 'us-east-1'
       aws_role_to_assume: 'arn:aws:iam::357225030460:role/log_github_action' 
     permissions:
