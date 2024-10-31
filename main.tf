@@ -5,6 +5,6 @@ resource "aws_instance" "log" {
 
   tags = {
     Name = "log"
-    environment= "log"
+    environment= "log1"
   }
 }
